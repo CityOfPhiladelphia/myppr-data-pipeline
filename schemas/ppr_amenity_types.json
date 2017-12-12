@@ -1,0 +1,65 @@
+{
+  "primaryKey": [
+    "id"
+  ],
+  "missingValues": [
+    ""
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "amenity_type_id",
+      "knack_key": "field_35",
+      "knack_type": "auto_increment",
+      "type": "string"
+    },
+    {
+      "name": "amenity_type_name",
+      "knack_key": "field_36",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "indoor_outdoor",
+      "knack_key": "field_37",
+      "knack_type": "multiple_choice",
+      "type": "array"
+    },
+    {
+      "name": "type_description",
+      "knack_key": "field_38",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "date_time_entered",
+      "knack_key": "field_39",
+      "knack_type": "date_time",
+      "type": "datetime"
+    },
+    {
+      "name": "entered_by",
+      "knack_key": "field_40",
+      "knack_type": "connection",
+      "type": "array"
+    },
+    {
+      "name": "date_time_input",
+      "knack_key": "field_154",
+      "knack_type": "date_time",
+      "type": "datetime"
+    },
+    {
+      "name": "date_time_modified",
+      "knack_key": "field_155",
+      "knack_type": "date_time",
+      "type": "datetime"
+    }
+  ]
+}

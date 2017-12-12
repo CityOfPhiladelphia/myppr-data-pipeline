@@ -1,0 +1,29 @@
+{
+  "primaryKey": [
+    "id"
+  ],
+  "missingValues": [
+    ""
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "days_name",
+      "knack_key": "field_293",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "weekday_number",
+      "knack_key": "field_294",
+      "knack_type": "number",
+      "type": "number"
+    }
+  ]
+}

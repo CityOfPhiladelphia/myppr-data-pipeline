@@ -1,0 +1,155 @@
+{
+  "primaryKey": [
+    "id"
+  ],
+  "missingValues": [
+    ""
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "facility",
+      "knack_key": "field_47",
+      "knack_type": "connection",
+      "type": "array"
+    },
+    {
+      "name": "district",
+      "knack_key": "field_325",
+      "knack_type": "connection",
+      "type": "array"
+    },
+    {
+      "name": "program_id",
+      "knack_key": "field_43",
+      "knack_type": "auto_increment",
+      "type": "string"
+    },
+    {
+      "name": "program_name_full",
+      "knack_key": "field_145",
+      "knack_type": "concatenation",
+      "type": "string"
+    },
+    {
+      "name": "activity_type",
+      "knack_key": "field_45",
+      "knack_type": "connection",
+      "type": "array"
+    },
+    {
+      "name": "program_name",
+      "knack_key": "field_46",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "program_description",
+      "knack_key": "field_48",
+      "knack_type": "rich_text",
+      "type": "string"
+    },
+    {
+      "name": "facilitator_type",
+      "knack_key": "field_49",
+      "knack_type": "multiple_choice",
+      "type": "array"
+    },
+    {
+      "name": "gender",
+      "knack_key": "field_50",
+      "knack_type": "multiple_choice",
+      "type": "array"
+    },
+    {
+      "name": "age_low",
+      "knack_key": "field_52",
+      "knack_type": "number",
+      "type": "number"
+    },
+    {
+      "name": "age_high",
+      "knack_key": "field_53",
+      "knack_type": "number",
+      "type": "number"
+    },
+    {
+      "name": "fee",
+      "knack_key": "field_54",
+      "knack_type": "currency",
+      "type": "string"
+    },
+    {
+      "name": "adult_youth_family",
+      "knack_key": "field_212",
+      "knack_type": "multiple_choice",
+      "type": "array"
+    },
+    {
+      "name": "amenities",
+      "knack_key": "field_147",
+      "knack_type": "connection",
+      "type": "array"
+    },
+    {
+      "name": "registration_start_date",
+      "knack_key": "field_299",
+      "knack_type": "date_time",
+      "type": "datetime"
+    },
+    {
+      "name": "registration_status",
+      "knack_key": "field_165",
+      "knack_type": "multiple_choice",
+      "type": "array"
+    },
+    {
+      "name": "publish",
+      "knack_key": "field_301",
+      "knack_type": "boolean",
+      "type": "boolean"
+    },
+    {
+      "name": "activity_id",
+      "knack_key": "field_160",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "is_active",
+      "knack_key": "field_55",
+      "knack_type": "boolean",
+      "type": "boolean"
+    },
+    {
+      "name": "date_time_entered",
+      "knack_key": "field_56",
+      "knack_type": "date_time",
+      "type": "datetime"
+    },
+    {
+      "name": "entered_by",
+      "knack_key": "field_57",
+      "knack_type": "connection",
+      "type": "array"
+    },
+    {
+      "name": "age_range",
+      "knack_key": "field_300",
+      "knack_type": "concatenation",
+      "type": "string"
+    },
+    {
+      "name": "fee_frequency",
+      "knack_key": "field_303",
+      "knack_type": "multiple_choice",
+      "type": "array"
+    }
+  ]
+}

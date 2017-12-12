@@ -1,0 +1,47 @@
+{
+  "primaryKey": [
+    "id"
+  ],
+  "missingValues": [
+    ""
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "location_type_idint",
+      "knack_key": "field_381",
+      "knack_type": "auto_increment",
+      "type": "string"
+    },
+    {
+      "name": "location_type_name",
+      "knack_key": "field_376",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "location_type_description",
+      "knack_key": "field_382",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "location_type_photo",
+      "knack_key": "field_383",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "publish",
+      "knack_key": "field_384",
+      "knack_type": "boolean",
+      "type": "boolean"
+    }
+  ]
+}
