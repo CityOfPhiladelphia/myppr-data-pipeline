@@ -1,0 +1,59 @@
+{
+  "primaryKey": [
+    "id"
+  ],
+  "missingValues": [
+    ""
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "facility",
+      "knack_key": "field_255",
+      "knack_type": "connection",
+      "type": "array"
+    },
+    {
+      "name": "date_from",
+      "knack_key": "field_290",
+      "knack_type": "date_time",
+      "type": "datetime"
+    },
+    {
+      "name": "date_to",
+      "knack_key": "field_291",
+      "knack_type": "date_time",
+      "type": "datetime"
+    },
+    {
+      "name": "days",
+      "knack_key": "field_292",
+      "knack_type": "connection",
+      "type": "array"
+    },
+    {
+      "name": "time_from",
+      "knack_key": "field_252",
+      "knack_type": "date_time",
+      "type": "datetime"
+    },
+    {
+      "name": "time_to",
+      "knack_key": "field_289",
+      "knack_type": "date_time",
+      "type": "datetime"
+    },
+    {
+      "name": "date_time_entered",
+      "knack_key": "field_332",
+      "knack_type": "date_time",
+      "type": "datetime"
+    }
+  ]
+}
