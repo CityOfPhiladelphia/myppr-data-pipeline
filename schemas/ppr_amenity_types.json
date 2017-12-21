@@ -17,7 +17,7 @@
       "name": "amenity_type_id",
       "knack_key": "field_35",
       "knack_type": "auto_increment",
-      "type": "string"
+      "type": "integer"
     },
     {
       "name": "amenity_type_name",

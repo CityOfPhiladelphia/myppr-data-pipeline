@@ -29,6 +29,18 @@
       "name": "program_id",
       "knack_key": "field_43",
       "knack_type": "auto_increment",
+      "type": "integer"
+    },
+    {
+      "name": "activity_category",
+      "knack_key": "field_357",
+      "knack_type": "connection",
+      "type": "array"
+    },
+    {
+      "name": "program_name",
+      "knack_key": "field_46",
+      "knack_type": "short_text",
       "type": "string"
     },
     {
@@ -42,12 +54,6 @@
       "knack_key": "field_45",
       "knack_type": "connection",
       "type": "array"
-    },
-    {
-      "name": "program_name",
-      "knack_key": "field_46",
-      "knack_type": "short_text",
-      "type": "string"
     },
     {
       "name": "program_description",
@@ -110,19 +116,13 @@
       "type": "array"
     },
     {
-      "name": "publish",
-      "knack_key": "field_301",
-      "knack_type": "boolean",
-      "type": "boolean"
-    },
-    {
       "name": "activity_id",
       "knack_key": "field_160",
       "knack_type": "short_text",
       "type": "string"
     },
     {
-      "name": "is_active",
+      "name": "program_is_active",
       "knack_key": "field_55",
       "knack_type": "boolean",
       "type": "boolean"
@@ -150,6 +150,30 @@
       "knack_key": "field_303",
       "knack_type": "multiple_choice",
       "type": "array"
+    },
+    {
+      "name": "program_is_public",
+      "knack_key": "field_301",
+      "knack_type": "boolean",
+      "type": "boolean"
+    },
+    {
+      "name": "program_is_approved",
+      "knack_key": "field_337",
+      "knack_type": "boolean",
+      "type": "boolean"
+    },
+    {
+      "name": "program_is_featured",
+      "knack_key": "field_358",
+      "knack_type": "boolean",
+      "type": "boolean"
+    },
+    {
+      "name": "registration_form_link",
+      "knack_key": "field_359",
+      "knack_type": "link",
+      "type": "string"
     }
   ]
 }

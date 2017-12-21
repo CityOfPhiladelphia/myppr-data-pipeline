@@ -29,7 +29,7 @@
       "name": "amenity_id",
       "knack_key": "field_59",
       "knack_type": "auto_increment",
-      "type": "string"
+      "type": "integer"
     },
     {
       "name": "facility_amenity_photo",

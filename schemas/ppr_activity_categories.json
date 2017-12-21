@@ -15,27 +15,39 @@
     },
     {
       "name": "activity_category_id",
-      "knack_key": "field_378",
+      "knack_key": "field_352",
       "knack_type": "auto_increment",
-      "type": "string"
+      "type": "integer"
     },
     {
       "name": "activity_category_name",
-      "knack_key": "field_377",
+      "knack_key": "field_351",
       "knack_type": "short_text",
       "type": "string"
     },
     {
       "name": "activity_category_description",
-      "knack_key": "field_379",
+      "knack_key": "field_353",
       "knack_type": "short_text",
       "type": "string"
     },
     {
       "name": "activity_category_photo",
-      "knack_key": "field_380",
+      "knack_key": "field_354",
       "knack_type": "short_text",
       "type": "string"
+    },
+    {
+      "name": "activity_category_is_featured",
+      "knack_key": "field_355",
+      "knack_type": "boolean",
+      "type": "boolean"
+    },
+    {
+      "name": "activity_category_is_published",
+      "knack_key": "field_356",
+      "knack_type": "boolean",
+      "type": "boolean"
     }
   ]
 }

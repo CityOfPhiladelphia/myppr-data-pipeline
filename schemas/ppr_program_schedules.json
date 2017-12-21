@@ -14,6 +14,12 @@
       }
     },
     {
+      "name": "program_schedule_id",
+      "knack_key": "field_335",
+      "knack_type": "auto_increment",
+      "type": "integer"
+    },
+    {
       "name": "program",
       "knack_key": "field_255",
       "knack_type": "connection",
@@ -56,22 +62,10 @@
       "type": "datetime"
     },
     {
-      "name": "facility_schedule_id",
-      "knack_key": "field_335",
-      "knack_type": "auto_increment",
-      "type": "string"
-    },
-    {
       "name": "schedule_length",
       "knack_key": "field_336",
       "knack_type": "equation",
       "type": "string"
-    },
-    {
-      "name": "program_id",
-      "knack_key": "field_372",
-      "knack_type": "number",
-      "type": "number"
     }
   ]
 }

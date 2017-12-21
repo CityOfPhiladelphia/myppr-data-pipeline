@@ -14,44 +14,50 @@
       }
     },
     {
+      "name": "facility_schedule_id",
+      "knack_key": "field_349",
+      "knack_type": "auto_increment",
+      "type": "integer"
+    },
+    {
       "name": "facility",
-      "knack_key": "field_255",
+      "knack_key": "field_350",
       "knack_type": "connection",
       "type": "array"
     },
     {
       "name": "date_from",
-      "knack_key": "field_290",
+      "knack_key": "field_343",
       "knack_type": "date_time",
       "type": "datetime"
     },
     {
       "name": "date_to",
-      "knack_key": "field_291",
+      "knack_key": "field_344",
       "knack_type": "date_time",
       "type": "datetime"
     },
     {
       "name": "days",
-      "knack_key": "field_292",
+      "knack_key": "field_345",
       "knack_type": "connection",
       "type": "array"
     },
     {
       "name": "time_from",
-      "knack_key": "field_252",
+      "knack_key": "field_346",
       "knack_type": "date_time",
       "type": "datetime"
     },
     {
       "name": "time_to",
-      "knack_key": "field_289",
+      "knack_key": "field_347",
       "knack_type": "date_time",
       "type": "datetime"
     },
     {
       "name": "date_time_entered",
-      "knack_key": "field_332",
+      "knack_key": "field_348",
       "knack_type": "date_time",
       "type": "datetime"
     }
