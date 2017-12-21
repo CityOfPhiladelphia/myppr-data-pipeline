@@ -20,6 +20,12 @@
       "type": "string"
     },
     {
+      "name": "location_type",
+      "knack_key": "field_366",
+      "knack_type": "connection",
+      "type": "array"
+    },
+    {
       "name": "district_connected",
       "knack_key": "field_323",
       "knack_type": "connection",
@@ -149,6 +155,12 @@
       "name": "registration_form_link",
       "knack_key": "field_338",
       "knack_type": "link",
+      "type": "string"
+    },
+    {
+      "name": "website_locator_points_link_id",
+      "knack_key": "field_367",
+      "knack_type": "short_text",
       "type": "string"
     }
   ]

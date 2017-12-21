@@ -14,32 +14,38 @@
       }
     },
     {
-      "name": "location_type_idint",
-      "knack_key": "field_381",
+      "name": "location_type_id",
+      "knack_key": "field_361",
       "knack_type": "auto_increment",
-      "type": "string"
+      "type": "integer"
     },
     {
       "name": "location_type_name",
-      "knack_key": "field_376",
+      "knack_key": "field_360",
       "knack_type": "short_text",
       "type": "string"
     },
     {
       "name": "location_type_description",
-      "knack_key": "field_382",
-      "knack_type": "short_text",
+      "knack_key": "field_362",
+      "knack_type": "paragraph_text",
       "type": "string"
     },
     {
       "name": "location_type_photo",
-      "knack_key": "field_383",
+      "knack_key": "field_363",
       "knack_type": "short_text",
       "type": "string"
     },
     {
-      "name": "publish",
-      "knack_key": "field_384",
+      "name": "location_type_is_published",
+      "knack_key": "field_364",
+      "knack_type": "boolean",
+      "type": "boolean"
+    },
+    {
+      "name": "location_type_is_featured",
+      "knack_key": "field_365",
       "knack_type": "boolean",
       "type": "boolean"
     }
