@@ -20,6 +20,18 @@
       "type": "string"
     },
     {
+      "name": "location_contact_name",
+      "knack_key": "field_370",
+      "knack_type": "name",
+      "type": "string"
+    },
+    {
+      "name": "contact_phone",
+      "knack_key": "field_15",
+      "knack_type": "phone",
+      "type": "string"
+    },
+    {
       "name": "location_type",
       "knack_key": "field_366",
       "knack_type": "connection",
@@ -96,12 +108,6 @@
       "knack_key": "field_12",
       "knack_type": "address",
       "type": "object"
-    },
-    {
-      "name": "contact_phone",
-      "knack_key": "field_15",
-      "knack_type": "phone",
-      "type": "string"
     },
     {
       "name": "fax",
