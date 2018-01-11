@@ -20,6 +20,12 @@
       "type": "string"
     },
     {
+      "name": "facilityispublished",
+      "knack_key": "field_372",
+      "knack_type": "boolean",
+      "type": "boolean"
+    },
+    {
       "name": "location_contact_name",
       "knack_key": "field_370",
       "knack_type": "name",
