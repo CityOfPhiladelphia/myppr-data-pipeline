@@ -20,6 +20,24 @@
       "type": "string"
     },
     {
+      "name": "facility_is_published",
+      "knack_key": "field_372",
+      "knack_type": "boolean",
+      "type": "boolean"
+    },
+    {
+      "name": "facility_description",
+      "knack_key": "field_30",
+      "knack_type": "paragraph_text",
+      "type": "string"
+    },
+    {
+      "name": "website_locator_points_link_id",
+      "knack_key": "field_367",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
       "name": "location_contact_name",
       "knack_key": "field_370",
       "knack_type": "name",
@@ -128,12 +146,6 @@
       "type": "number"
     },
     {
-      "name": "facility_description",
-      "knack_key": "field_30",
-      "knack_type": "paragraph_text",
-      "type": "string"
-    },
-    {
       "name": "earliest_date_year",
       "knack_key": "field_31",
       "knack_type": "number",
@@ -161,12 +173,6 @@
       "name": "registration_form_link",
       "knack_key": "field_338",
       "knack_type": "link",
-      "type": "string"
-    },
-    {
-      "name": "website_locator_points_link_id",
-      "knack_key": "field_367",
-      "knack_type": "short_text",
       "type": "string"
     }
   ]
