@@ -180,6 +180,18 @@
       "knack_key": "field_359",
       "knack_type": "link",
       "type": "string"
+    },
+    {
+      "name": "program_is_reviewed",
+      "knack_key": "field_378",
+      "knack_type": "boolean",
+      "type": "boolean"
+    },
+    {
+      "name": "program_review_notes",
+      "knack_key": "field_379",
+      "knack_type": "paragraph_text",
+      "type": "string"
     }
   ]
 }
