@@ -1,0 +1,185 @@
+{
+  "primaryKey": [
+    "id"
+  ],
+  "missingValues": [
+    ""
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "facility_name",
+      "knack_key": "field_4",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "facility_description",
+      "knack_key": "field_30",
+      "knack_type": "paragraph_text",
+      "type": "string"
+    },
+    {
+      "name": "location_contact_name",
+      "knack_key": "field_370",
+      "knack_type": "name",
+      "type": "string"
+    },
+    {
+      "name": "contact_phone",
+      "knack_key": "field_15",
+      "knack_type": "phone",
+      "type": "string"
+    },
+    {
+      "name": "location_type",
+      "knack_key": "field_366",
+      "knack_type": "connection",
+      "type": "array"
+    },
+    {
+      "name": "district_connected",
+      "knack_key": "field_323",
+      "knack_type": "connection",
+      "type": "array"
+    },
+    {
+      "name": "allow_paper_data_entry",
+      "knack_key": "field_316",
+      "knack_type": "boolean",
+      "type": "boolean"
+    },
+    {
+      "name": "history",
+      "knack_key": "field_163",
+      "knack_type": "rich_text",
+      "type": "string"
+    },
+    {
+      "name": "facility_id",
+      "knack_key": "field_3",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "facility_photo",
+      "knack_key": "field_6",
+      "knack_type": "image",
+      "type": "string"
+    },
+    {
+      "name": "facility_type",
+      "knack_key": "field_5",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "district",
+      "knack_key": "field_7",
+      "knack_type": "number",
+      "type": "number"
+    },
+    {
+      "name": "police_district",
+      "knack_key": "field_8",
+      "knack_type": "number",
+      "type": "number"
+    },
+    {
+      "name": "council_district",
+      "knack_key": "field_9",
+      "knack_type": "number",
+      "type": "number"
+    },
+    {
+      "name": "planning_analysis_section",
+      "knack_key": "field_10",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "long_name",
+      "knack_key": "field_11",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "address",
+      "knack_key": "field_12",
+      "knack_type": "address",
+      "type": "object"
+    },
+    {
+      "name": "fax",
+      "knack_key": "field_16",
+      "knack_type": "number",
+      "type": "number"
+    },
+    {
+      "name": "status",
+      "knack_key": "field_28",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "building_square_feet",
+      "knack_key": "field_29",
+      "knack_type": "number",
+      "type": "number"
+    },
+    {
+      "name": "earliest_date_year",
+      "knack_key": "field_31",
+      "knack_type": "number",
+      "type": "number"
+    },
+    {
+      "name": "date_time_entered",
+      "knack_key": "field_32",
+      "knack_type": "date_time",
+      "type": "datetime"
+    },
+    {
+      "name": "date_time_updated",
+      "knack_key": "field_133",
+      "knack_type": "date_time",
+      "type": "datetime"
+    },
+    {
+      "name": "historical_figure_name",
+      "knack_key": "field_333",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "registration_form_link",
+      "knack_key": "field_338",
+      "knack_type": "link",
+      "type": "string"
+    },
+    {
+      "name": "website_locator_points_link_id",
+      "knack_key": "field_367",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "facility_is_published",
+      "knack_key": "field_375",
+      "knack_type": "boolean",
+      "type": "boolean"
+    },
+    {
+      "name": "registration_form_link",
+      "knack_key": "field_376",
+      "knack_type": "short_text",
+      "type": "string"
+    }
+  ]
+}

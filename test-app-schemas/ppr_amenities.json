@@ -1,0 +1,119 @@
+{
+  "primaryKey": [
+    "id"
+  ],
+  "missingValues": [
+    ""
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "facility",
+      "knack_key": "field_61",
+      "knack_type": "connection",
+      "type": "array"
+    },
+    {
+      "name": "facility_amenity_name",
+      "knack_key": "field_143",
+      "knack_type": "concatenation",
+      "type": "string"
+    },
+    {
+      "name": "amenity_id",
+      "knack_key": "field_59",
+      "knack_type": "auto_increment",
+      "type": "integer"
+    },
+    {
+      "name": "facility_amenity_photo",
+      "knack_key": "field_60",
+      "knack_type": "image",
+      "type": "string"
+    },
+    {
+      "name": "amenity_type",
+      "knack_key": "field_62",
+      "knack_type": "connection",
+      "type": "array"
+    },
+    {
+      "name": "amenity_name",
+      "knack_key": "field_63",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "amenity_use",
+      "knack_key": "field_64",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "amenity_description",
+      "knack_key": "field_65",
+      "knack_type": "paragraph_text",
+      "type": "string"
+    },
+    {
+      "name": "dimensions",
+      "knack_key": "field_66",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "has_roof",
+      "knack_key": "field_67",
+      "knack_type": "boolean",
+      "type": "boolean"
+    },
+    {
+      "name": "lighting",
+      "knack_key": "field_68",
+      "knack_type": "boolean",
+      "type": "boolean"
+    },
+    {
+      "name": "working",
+      "knack_key": "field_69",
+      "knack_type": "boolean",
+      "type": "boolean"
+    },
+    {
+      "name": "max_capacity",
+      "knack_key": "field_70",
+      "knack_type": "number",
+      "type": "number"
+    },
+    {
+      "name": "date_time_entered",
+      "knack_key": "field_71",
+      "knack_type": "date_time",
+      "type": "datetime"
+    },
+    {
+      "name": "entered_by",
+      "knack_key": "field_72",
+      "knack_type": "connection",
+      "type": "array"
+    },
+    {
+      "name": "indoor",
+      "knack_key": "field_164",
+      "knack_type": "boolean",
+      "type": "boolean"
+    },
+    {
+      "name": "amenity_name_id",
+      "knack_key": "field_334",
+      "knack_type": "concatenation",
+      "type": "string"
+    }
+  ]
+}

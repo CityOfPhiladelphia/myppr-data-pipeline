@@ -1,0 +1,53 @@
+{
+  "primaryKey": [
+    "id"
+  ],
+  "missingValues": [
+    ""
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "activity_type_id",
+      "knack_key": "field_44",
+      "knack_type": "auto_increment",
+      "type": "integer"
+    },
+    {
+      "name": "activity_type_name",
+      "knack_key": "field_81",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "actvity_type_category",
+      "knack_key": "field_82",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "type_description",
+      "knack_key": "field_83",
+      "knack_type": "short_text",
+      "type": "string"
+    },
+    {
+      "name": "date_time_entered",
+      "knack_key": "field_84",
+      "knack_type": "date_time",
+      "type": "datetime"
+    },
+    {
+      "name": "entered_by",
+      "knack_key": "field_85",
+      "knack_type": "connection",
+      "type": "array"
+    }
+  ]
+}
