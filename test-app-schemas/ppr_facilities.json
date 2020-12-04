@@ -14,15 +14,27 @@
       }
     },
     {
-      "name": "facility_name",
+      "name": "public_name",
       "knack_key": "field_4",
       "knack_type": "short_text",
       "type": "string"
     },
     {
+      "name": "facility_is_published",
+      "knack_key": "field_372",
+      "knack_type": "boolean",
+      "type": "boolean"
+    },
+    {
       "name": "facility_description",
       "knack_key": "field_30",
-      "knack_type": "paragraph_text",
+      "knack_type": "rich_text",
+      "type": "string"
+    },
+    {
+      "name": "website_locator_points_link_id",
+      "knack_key": "field_367",
+      "knack_type": "short_text",
       "type": "string"
     },
     {
@@ -56,7 +68,7 @@
       "type": "boolean"
     },
     {
-      "name": "history",
+      "name": "site_history",
       "knack_key": "field_163",
       "knack_type": "rich_text",
       "type": "string"
@@ -104,7 +116,7 @@
       "type": "string"
     },
     {
-      "name": "long_name",
+      "name": "official_name",
       "knack_key": "field_11",
       "knack_type": "short_text",
       "type": "string"
@@ -122,7 +134,7 @@
       "type": "number"
     },
     {
-      "name": "status",
+      "name": "site_status",
       "knack_key": "field_28",
       "knack_type": "short_text",
       "type": "string"
@@ -164,20 +176,14 @@
       "type": "string"
     },
     {
-      "name": "website_locator_points_link_id",
-      "knack_key": "field_367",
+      "name": "short_label",
+      "knack_key": "field_417",
       "knack_type": "short_text",
       "type": "string"
     },
     {
-      "name": "facility_is_published",
-      "knack_key": "field_375",
-      "knack_type": "boolean",
-      "type": "boolean"
-    },
-    {
-      "name": "registration_form_link",
-      "knack_key": "field_376",
+      "name": "site_status_note",
+      "knack_key": "field_418",
       "knack_type": "short_text",
       "type": "string"
     }
